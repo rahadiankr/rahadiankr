@@ -1,6 +1,4 @@
-- 👋 Hi, I’m @rahadiankr
-- 👀 I’m interested in ML
-- 🌱 I’m currently learning Image processing with python
+- masih ada
 
 <!---
 rahadiankr/rahadiankr is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

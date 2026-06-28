@@ -31,9 +31,6 @@ An **AI-driven longevity coach** that tracks health data, offers insights, and h
 ---
 
 ### 📊 GitHub Stats
-![Rahadian's GitHub stats](https://github-readme-stats.vercel.app/api?username=rahadiankr&show_icons=true&theme=tokyonight)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rahadiankr&layout=compact&theme=tokyonight)  
-
 ![Rahadian’s GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=rahadiankr&theme=tokyo-night)  
 
 ---

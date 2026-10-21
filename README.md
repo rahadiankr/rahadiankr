@@ -52,9 +52,6 @@ flowchart LR
 ```
 
 **Under the hood:** TypeScript · Mastra (agents, workflows, tools) · AI SDK · OpenAI · MCP · PostgreSQL
-
-👉 **[Explore LongeAge Mentor](https://github.com/semarangplaza/)**
-
 ---
 
 ## 🛠️ Tech Stack

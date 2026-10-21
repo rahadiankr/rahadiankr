@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Rahadian%20Kristiyanto&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20Engineer%20%7C%20Agent%20Orchestration%20%7C%20Longevity%20Tech&descAlignY=58&descSize=18" width="100%" alt="header" />
 
 <a href="https://github.com/rahadiankr">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=7F00FF&center=true&vCenter=true&width=700&lines=Building+AI+agents+that+actually+help+people;Turning+health+data+into+longevity+insights;Making+AI+interactive%2C+contextual+and+personal;Pushing+to+production+on+a+Friday+is+my+cardio" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=7F00FF&center=true&vCenter=true&width=700&lines=Building+AI+agents+that+actually+help+people;Turning+daily+health+data+into+longevity+insights;Making+AI+interactive%2C+contextual+and+personal;Pushing+to+production+on+a+Friday+is+my+cardio" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -20,7 +20,7 @@
 
 I'm **Rahadian**, a.k.a. *napkincode*, an **AI engineer and backend developer** from **Semarang 🇮🇩**. I build the intelligence layer behind products: agent orchestration, data-driven workflows, and conversational experiences that feel natural instead of robotic.
 
-- 🔭 Currently building **LongeAge**, a longevity platform with an AI coach at its core
+- 🔭 Currently building **LongeAge**, a longevity super app with an AI coach at its core
 - 🤖 Designing agents and workflows with **Mastra** and TypeScript
 - 💬 Obsessed with making AI **more interactive, context-aware, and personal**
 - 🌱 Exploring tool-calling, MCP, agent memory, streaming UX, and evals
@@ -29,58 +29,43 @@ I'm **Rahadian**, a.k.a. *napkincode*, an **AI engineer and backend developer** 
 
 ## 🚀 Currently Building: LongeAge
 
-> A longevity platform that turns everyday health data into adaptive, personalized guidance.
+> **Hidup Lebih Muda, Lebih Lama.** A longevity super app that helps people live longer, healthier, and more meaningful lives.
 
-**What users can do in the app**
+<div align="center">
 
-| 🩺 Health & Activity | 🧊 Interventions & Fasting | 🌐 Community |
-|---|---|---|
-| Health records & metrics | Cold plunge sessions | Social feed for longevity enthusiasts |
-| Steps & workouts | Sauna sessions | Share progress & stay accountable |
-| Daily activity trends | Fasting windows | Learn from others' routines |
+[![Website](https://img.shields.io/badge/Website-longeage.com-7F00FF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://longeage.com/)
+[![Google Play](https://img.shields.io/badge/Google_Play-Download-34A853?style=for-the-badge&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.longeage.app)
+[![App Store](https://img.shields.io/badge/App_Store-Download-0D96F6?style=for-the-badge&logo=apple&logoColor=white)](https://apps.apple.com/us/app/longeage/id6742009049)
 
-**What the AI does (my part of the stack)**
+</div>
 
-- 🧠 **Insight workflows**: scheduled and event-driven Mastra workflows read a user's health, activity, fasting, and intervention data, then produce longevity insights and trends
-- 💬 **Longevity Q&A agent**: users ask questions about longevity *and about their own data*, and the agent answers grounded in what they've actually logged
-- 🔧 **Tool-calling**: the agent fetches real user data through typed tools instead of guessing
+| 🍽️ Fasting | 🚶 Walking | 💪 Exercise | 😴 Sleep |
+|---|---|---|---|
+| Design and track fasting cycles | Step counting & daily activity | Track workouts and progress | Sleep quality & recovery |
 
-### 🏗️ Architecture at a Glance
+| 🤝 Social | 🧑‍🏫 LA Mentor | 🏆 Ranking | 📖 Reading |
+|---|---|---|---|
+| Challenges and support from like-minded friends | Your longevity coach | Leaderboards & rewards | Science-based articles on aging |
 
-```mermaid
-flowchart LR
-    subgraph Data["👤 User Data"]
-        H[Health records]
-        A[Steps & workouts]
-        F[Fasting]
-        I[Cold plunge & sauna]
-    end
+### 🤖 My Part: The AI Agent
 
-    Data --> W[⚙️ Mastra Workflows]
-    W --> S[🧮 Analyze & detect patterns]
-    S --> IA[🤖 Insight Agent]
-    IA --> O[📱 Personalized longevity insights]
+I build the AI that reads a user's daily lifestyle data and turns it into insights they can act on, such as a better eating window, a realistic step target, or an improved sleep habit.
 
-    Q[💬 User question] --> CA[🧠 Chat Agent]
-    CA <--> T[🔧 Tools / MCP]
-    T <--> Data
-    CA --> R[✨ Grounded, interactive answer]
-```
+- 🧠 **Insight workflows** analyze daily patterns automatically
+- 💬 **A longevity Q&A agent** answers questions about longevity and about the user's own data
+- 🎯 **Personal, data-driven recommendations** tuned to each person's habits and abilities
 
 ### ✨ Making the AI More Interactive
 
 What I'm working on to make the coach feel less like a chatbot and more like a mentor:
 
-- ⚡ Streaming responses for a faster, more natural conversation
-- 🧩 Richer answers that can surface the user's own metrics inside the chat
+- ⚡ Streaming responses for faster, more natural conversation
+- 🧩 Richer answers that surface the user's own metrics inside the chat
 - 💡 Context-aware follow-up suggestions based on recent activity
 - 🧠 Agent memory so the coach remembers goals and preferences
-- 🤝 Human-in-the-loop steps in workflows for confirmations before taking action
 - 📈 Evals to keep answers accurate, safe, and genuinely helpful
 
-**Tech:** TypeScript · Mastra (agents, workflows, tools) · AI SDK · OpenAI · MCP · PostgreSQL
-
-👉 **[LongeAge on GitHub](https://github.com/semarangplaza/)**
+**Tech:** TypeScript · Mastra · AI SDK · OpenAI · MCP · PostgreSQL
 
 ---
 

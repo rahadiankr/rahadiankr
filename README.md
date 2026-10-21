@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Rahadian%20Kristiyanto&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Backend%20Developer%20%7C%20AI%20Agent%20Builder&descAlignY=58&descSize=20" width="100%" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Rahadian%20Kristiyanto&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20Engineer%20%7C%20Agent%20Orchestration%20%7C%20Longevity%20Tech&descAlignY=58&descSize=18" width="100%" alt="header" />
 
 <a href="https://github.com/rahadiankr">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=7F00FF&center=true&vCenter=true&width=650&lines=Building+AI+agents+that+actually+help+people;Turning+health+data+into+longevity+insights;TypeScript+%7C+Mastra+%7C+AI+SDK+%7C+MCP;Pushing+to+production+on+a+Friday+is+my+cardio" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=7F00FF&center=true&vCenter=true&width=700&lines=Building+AI+agents+that+actually+help+people;Turning+health+data+into+longevity+insights;Making+AI+interactive%2C+contextual+and+personal;Pushing+to+production+on+a+Friday+is+my+cardio" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -18,40 +18,70 @@
 
 ## 👋 About Me
 
-I'm a **Backend Developer & AI Agent Builder** based in **Semarang 🇮🇩**, a.k.a. *napkincode*. I design intelligent systems that make human–AI collaboration feel natural and useful, with a current focus on **agent orchestration, workflows, and interactive AI experiences** for health and longevity.
+I'm **Rahadian**, a.k.a. *napkincode*, an **AI engineer and backend developer** from **Semarang 🇮🇩**. I build the intelligence layer behind products: agent orchestration, data-driven workflows, and conversational experiences that feel natural instead of robotic.
 
-- 🔭 Building **LongeAge**, an AI-powered longevity platform
-- 🤖 Designing multi-agent workflows with **Mastra** and TypeScript
-- 💬 Making AI more **interactive**, **context-aware**, and **personal**
-- 🌱 Exploring MCP, tool-calling, agent memory, and evals
+- 🔭 Currently building **LongeAge**, a longevity platform with an AI coach at its core
+- 🤖 Designing agents and workflows with **Mastra** and TypeScript
+- 💬 Obsessed with making AI **more interactive, context-aware, and personal**
+- 🌱 Exploring tool-calling, MCP, agent memory, streaming UX, and evals
 
 ---
 
-## 🚀 Featured Project: LongeAge
+## 🚀 Currently Building: LongeAge
 
-> An **AI-driven longevity coach** that turns your daily data into adaptive, personalized guidance.
+> A longevity platform that turns everyday health data into adaptive, personalized guidance.
 
-| 📊 Track | 🧠 Understand | 💬 Interact |
+**What users can do in the app**
+
+| 🩺 Health & Activity | 🧊 Interventions & Fasting | 🌐 Community |
 |---|---|---|
-| Health metrics, steps & workouts | Workflows that analyze user data | AI agent that answers longevity questions |
-| Fasting windows | Longevity insights & trends | Answers grounded in *your* own data |
-| Cold plunge, sauna & other interventions | Pattern detection across habits | Social feed to stay motivated together |
+| Health records & metrics | Cold plunge sessions | Social feed for longevity enthusiasts |
+| Steps & workouts | Sauna sessions | Share progress & stay accountable |
+| Daily activity trends | Fasting windows | Learn from others' routines |
 
-### 🏗️ How the AI Works
+**What the AI does (my part of the stack)**
+
+- 🧠 **Insight workflows**: scheduled and event-driven Mastra workflows read a user's health, activity, fasting, and intervention data, then produce longevity insights and trends
+- 💬 **Longevity Q&A agent**: users ask questions about longevity *and about their own data*, and the agent answers grounded in what they've actually logged
+- 🔧 **Tool-calling**: the agent fetches real user data through typed tools instead of guessing
+
+### 🏗️ Architecture at a Glance
 
 ```mermaid
 flowchart LR
-    A[👤 User Data<br/>health · activity · fasting · interventions] --> B[⚙️ Mastra Workflow]
-    B --> C[🧮 Data Analysis Step]
-    C --> D[🤖 Insight Agent]
-    D --> E[📱 Personalized Longevity Insights]
-    F[💬 User Question] --> G[🧠 Chat Agent]
-    G <--> H[🔧 Tools / MCP]
-    H <--> A
-    G --> I[✨ Interactive Answer]
+    subgraph Data["👤 User Data"]
+        H[Health records]
+        A[Steps & workouts]
+        F[Fasting]
+        I[Cold plunge & sauna]
+    end
+
+    Data --> W[⚙️ Mastra Workflows]
+    W --> S[🧮 Analyze & detect patterns]
+    S --> IA[🤖 Insight Agent]
+    IA --> O[📱 Personalized longevity insights]
+
+    Q[💬 User question] --> CA[🧠 Chat Agent]
+    CA <--> T[🔧 Tools / MCP]
+    T <--> Data
+    CA --> R[✨ Grounded, interactive answer]
 ```
 
-**Under the hood:** TypeScript · Mastra (agents, workflows, tools) · AI SDK · OpenAI · MCP · PostgreSQL
+### ✨ Making the AI More Interactive
+
+What I'm working on to make the coach feel less like a chatbot and more like a mentor:
+
+- ⚡ Streaming responses for a faster, more natural conversation
+- 🧩 Richer answers that can surface the user's own metrics inside the chat
+- 💡 Context-aware follow-up suggestions based on recent activity
+- 🧠 Agent memory so the coach remembers goals and preferences
+- 🤝 Human-in-the-loop steps in workflows for confirmations before taking action
+- 📈 Evals to keep answers accurate, safe, and genuinely helpful
+
+**Tech:** TypeScript · Mastra (agents, workflows, tools) · AI SDK · OpenAI · MCP · PostgreSQL
+
+👉 **[LongeAge on GitHub](https://github.com/semarangplaza/)**
+
 ---
 
 ## 🛠️ Tech Stack
@@ -69,12 +99,9 @@ flowchart LR
 
 ---
 
-## 📊 GitHub Stats
+## 📈 Activity
 
 <div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=rahadiankr&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0,1a1b27,24283b" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rahadiankr&layout=compact&theme=tokyonight&hide_border=true&bg_color=0,1a1b27,24283b" />
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=rahadiankr&theme=tokyo-night&hide_border=true" width="100%" />
 
